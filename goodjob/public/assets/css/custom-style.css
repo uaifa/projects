@@ -1,0 +1,22 @@
+.invalid-feedback{
+    display: inline-block !important;
+    float: left !important;
+    text-align: left;
+}
+
+.toggle-password {
+    position: relative;
+    float: right;
+    cursor: pointer;
+    right: 16px;
+    margin-top: -37px;
+}
+.btn {
+    border-radius: 30px;
+    font-family: EuropaB;
+    font-size: 20px;
+    /*padding: 0;*/
+}
+
+
+

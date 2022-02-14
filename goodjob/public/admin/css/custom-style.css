@@ -1,0 +1,84 @@
+
+input[name="udel_theme_module_option"],
+        input[type=checkbox] {
+            display: none;
+            visibility: hidden;
+        }
+        label{
+            text-transform:uppercase;
+        }
+        label, label:before, .radio-switch, .radio-switch:before{
+            -webkit-transition:all 140ms ease-in-out;
+            transition:all 140ms ease-in-out;
+            cursor:pointer;
+        }
+        ::selection{ background-color: transparent;}
+        ::moz-selection{ background-color: transparent;}
+        ::webkit-selection{ background-color: transparent;}
+        .toggle,
+        .check-group {
+            position: relative;
+            padding: 5px;
+        }
+        .toggle label {
+            position: absolute;
+            width: 120px;
+            height: 44px;
+            line-height:45px;
+        }
+        input[name="udel_theme_module_option"]:checked + label {
+            z-index: -1;
+        }
+
+        input[name="udel_theme_module_option"]:checked + label:first-of-type {
+            color:#fa4;
+        }
+        input[name="udel_theme_module_option"]:checked + label:last-of-type {
+            color:#4af;
+        }
+        .toggle label:first-of-type span {
+            float: left;
+        }
+        .toggle label:last-of-type {
+            margin-left:40px;
+            float: right;
+            text-align:right;
+        }
+        .radio-switch {
+            position: absolute;
+            z-index: -1;
+            width: 80px;
+            height: 44px;
+            margin-left: 40px;
+            border-radius: 30px;
+            background-color: #fa4;
+            padding: 2px;
+        }
+        .radio-switch:before {
+            position: absolute;
+            top: 2px;
+            display: block;
+            width: 40px;
+            height: 40px;
+            content: '';
+            border-radius: 30px;
+            background-color: #FFF;
+        }
+        input#sealBlueFluidHeader:checked ~ .radio-switch {
+            background-color: #4af;
+        }
+        input#sealBlueFluidHeader:checked ~ .radio-switch:before {
+            right: 2px;
+        }
+        input[type=checkbox]:checked ~ label:after,
+        input[type=checkbox] ~ label:before{
+            pointer-events:none
+        }
+        input[type=checkbox]:checked ~ label:before{
+            pointer-events:all;
+            }
+
+        input[type=checkbox]:checked + label>span:before {
+            float: right;
+        }*/
+
