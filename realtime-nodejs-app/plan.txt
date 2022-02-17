@@ -1,0 +1,30 @@
+01. Create directory structure
+02. Create a NPM project and install all dependancies
+    1. dependancies
+        1. Express
+        2. ejs express-ejs-layout
+    2. Dev dependancies
+        1. nodemon
+03. Create express server - create a server.js file
+04. Git setup and first commit 
+05. Install laravel mix
+    1. setup js and scss
+06. Create home page using Html and Css
+    1. include tailwind Css
+07. Create cart page 
+    1. order summary section
+    2. empty cart section
+08. Add to cart functionality
+    1. Fetch all pizza from db and show home page
+    2. Create menu model and put dummy data
+        1. connect to mongo db
+        2. use connect-mongo for session store
+            1. dependancies
+                1. mngoose, express-session, connect-mongo, dotenv
+    3. axios to send ajax request
+    4. install notification library npm i noty https://ned.im/noty/#/
+06. Create order controller and link it in server.js
+07. Create order view with table for customer and admin
+08. Create order single page with status
+09. Create login page route
+10. 
